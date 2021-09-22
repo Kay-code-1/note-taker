@@ -3,7 +3,7 @@ const { json } = require("body-parser");
 const path = require('path');
 const notesRouter = require('./routes/notes');
 
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 const app = express();
 
 app.use(express.static("public"));
