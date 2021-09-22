@@ -10,6 +10,14 @@ HTML,CSS,JavaScript,Node.js,Express.js
 
 ### Installation
 
-1. Start localhost server/ server.js from terminal for the application.
+1. Install the application using the following command
+    >npm install
 
-2. Open index.html in browser to get start with notes.
+2. Start localhost server from terminal.
+    >npm start
+
+3. Open localhost in browser to get started with notes.
+
+### Live Application
+
+<https://notetaker-app-k.herokuapp.com/>
